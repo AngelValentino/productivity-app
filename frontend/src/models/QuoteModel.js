@@ -4,7 +4,7 @@ export default class QuoteModel {
   constructor(utils, fetchHandler) {
     this.utils = utils;
     this.fetchHandler = fetchHandler;
-    this.baseEndpointUrl = config.apiUrl + '/quotes';
+    this.baseEndpointUrl = 'assets/data/quotes.json';
   }
 
   setQuotesToCache(quotes) {
