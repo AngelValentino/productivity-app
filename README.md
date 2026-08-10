@@ -8,7 +8,7 @@
 
 The frontend is bundled with Webpack and Babel while interacting with a secure RESTful API built in pure PHP with composer, following a OOP MVC approach. The API is protected with JWT authentication and configured to handle CORS for secure cross-origin requests. Access control is enforced using Redis based rate limiting, while data persistence is managed separately with MySQL to ensure reliable storage. The interface is clean, accessible, and intuitive, supporting task management, reminders, and progress tracking. All designed with simplicity and usability in mind.
 
-The source code for the API has been set to private for increased security purposes. Notwithstanding, [documentation is available here](#-further-documentation), explaining the architecture, functionality, and security hardening.
+The app currently provides only offline capabilities. The source code for the previously hosted API is available [here](https://github.com/angelvalentino/taskflow-api) for transparency and reference. Additionally, [further documentation is available here](#-further-documentation), explaining the architecture, functionality, and security hardening.
 
 ### 📱 Progressive Web App (PWA) Support
 
@@ -173,18 +173,6 @@ TaskFlow features a modular design that allows it to scale as user needs grow. I
 ![Taskflow app screenshot](./docs/assets/images/app-screenshot-5.png)
 
 ![Taskflow app screenshot](./docs/assets/images/app-screenshot-6.png)
-
-<br>
-
-## 🚧 Possible Future Improvements
-
-These improvements are planned possibilities and may evolve based on feedback and priorities.
-
-- Refactor the client-side codebase to use **TypeScript** with strict typing, improving code reliability and providing better IntelliSense support.  
-- Add **user management options**, allowing users to delete their accounts, change their email or username, and upload a profile picture.  
-- Implement **Progressive Web App (PWA)** functionality to enable offline use, app installation, and improved performance.  
-- Enhance user customization by adding a **theme palette picker**, letting users select and save their favorite themes for a personalized experience.  
-- Introduce an additional **colorblind-friendly palette** to improve accessibility and ensure the app is inclusive to users with color vision deficiencies.
 
 <br>
 
